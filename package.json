@@ -1,0 +1,26 @@
+{
+  "name": "mod3_fabricio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "npm-run-all --parallel dev:css dev:css dev:server",
+    "dev:server" : "firebase serve",
+    "dev:css" : "node-sass -w public/scss/style.scss public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwaltrick/mod3_fabricio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fwaltrick/mod3_fabricio/issues"
+  },
+  "homepage": "https://github.com/fwaltrick/mod3_fabricio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2"
+  }
+}
