@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "npm-run-all --parallel dev:css dev:css dev:server",
-    "dev:server" : "firebase serve",
-    "dev:css" : "node-sass -w public/scss/style.scss public/css/style.css"
+    "dev": "npm-run-all --parallel dev:css dev:server dev:proxy",
+    "dev:server": "firebase serve",
+    "dev:proxy": "cd public && live-server --proxy=localhost:5000 && open http://localhost:8080",
+    "dev:css": "node-sass -w public/scss/style.scss public/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "live-server": "^1.2.0",
     "node-sass": "^4.7.2",
     "npm-run-all": "^4.1.2"
+  },
+  "dependencies": {
+    "compass": "^0.1.1"
   }
 }
