@@ -26,18 +26,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-$(document).ready(function(){
-    $(".btnham a").click(function(){
-      var height = $(window).height()
-      $(".overlay").css('height',height);
-      $(".overlay").fadeToggle(100);
-       $(this).toggleClass('btn-open').toggleClass('btn-close');
-       console.log(height);
-    });
-});
-$('.overlay').on('click', function(){
-    $(".overlay").fadeToggle(100);   
-    $(".btnham a").toggleClass('btn-open').toggleClass('btn-close');
-    open = false;
-});
+var indicator = document.querySelector(".carousel-indicators");
 
+function openNav() {
+    document.querySelector("#myNav").style.width = "100%";
+    indicator.style.visibility = "hidden";
+}
+
+function closeNav() {
+    document.querySelector("#myNav").style.width = "0%";
+    indicator.style.visibility = "visible";
+
+}
