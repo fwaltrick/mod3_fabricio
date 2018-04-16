@@ -1,0 +1,69 @@
+[ 
+  { 
+  	"date": "2018-09-08T13:00:00-05:00",
+  	"day": "Sep 1",
+  	"time": "09:30",
+  	"team1": "U1",
+  	"team2": "U4",
+  	"location": "AJ Katzenmaier"  
+
+  },
+  { 
+  	"date": "2018-09-08T13:00:00-05:00",
+  	"day": "Sep 1",
+  	"time": "13:00",
+  	"team1": "U2",
+  	"team2": "U3",
+  	"location": "Greenbay"
+  },
+  { 
+  	"date": "2018-09-08T09:30:00-05:00",
+  	"day": "Sep 8",
+  	"time": "09:30",
+  	"team1": "U5",
+  	"team2": "U6" ,
+  	"location": "Howard A Yeager" 
+  },
+  { 
+  	"date": "2018-09-08T13:00:00-05:00",
+  	"day": "Sep 8",
+  	"time": "13:00",
+  	"team1": "U1",
+  	"team2": "U6",
+  	"location": "Marjorie P Hart" 
+  },
+  { 
+  	"date": "2018-09-15T09:30:00-05:00",
+  	"day": "Sep 15",
+  	"time": "09:30",
+  	"team1": "U2",
+  	"team2": "U4",
+  	"location": "North"
+  },
+  { 
+  	"date": "2018-09-15T13:00:00-05:00",
+  	"day": "Sep 15",
+  	"time": "13:00",
+  	"team1": "U1",
+  	"team2": "U3",
+  	"location": "AJ Katzenmaier"
+  },
+  { 
+  	"date": "2018-09-22T09:30:00-05:00",
+  	"day": "Sep 22",
+  	"time": "09:30",
+  	"team1": "U1",
+  	"team2": "U3",
+  	"location": "South"
+  },
+  { 
+  	"date": "2018-09-22T13:00:00-05:00",
+  	"day": "Sep 22",
+  	"time": "13:00",
+  	"team1": "U2",
+  	"team2": "U6",
+  	"location": "Howard A Yeager"
+  }
+]
+
+
